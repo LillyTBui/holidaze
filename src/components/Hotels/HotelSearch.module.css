@@ -1,0 +1,40 @@
+.result_div {
+  border-top: 1px solid #8080801c;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.result_ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.result_div li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.result_div li:hover {
+  color: black;
+  background-color: rgba(211, 211, 211, 0.175);
+}
+
+.no_result {
+  padding: 0.5rem 1rem;
+}
+
+/* hotel result item */
+.hotel_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: fill;
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;600&display=swap");
+
+:root {
+  --clr-primary-blue: #024059;
+  --clr-primary-light-blue: #3b758c;
+  --clr-secondary-blue: #b8d0d9;
+  --clr-secondary-dark: #000000e3;
+  --clr-gray: #f7f4f4;
+  --clr-white: #ffffff;
+
+  /* font-families */
+  --ff-sans-normal: "Raleway", sans-serif;
+  --ff-sans-title: "Poppins", sans-serif;
+
+  /* font-sizes */
+  --fs-800: 1.5rem;
+  --fs-700: 1.375rem;
+  --fs-600: 1.125rem;
+  --fs-500: 1rem;
+
+  /* line-height */
+  --lh-normal: 28px;
+}
+
+@media (min-width: 576px) {
+  /* font-sizes */
+  :root {
+    --fs-800: 1.7rem;
+    --fs-700: 1.5rem;
+    --fs-600: 1.375rem;
+    --fs-500: 1.125rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  font-weight: 400;
+}
+
+/* set up body */
+html,
+body {
+  height: 100%;
+}
+
+.App {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-500);
+  margin: 0;
+  line-height: var(--lh-normal);
+  color: var(--clr-secondary-dark);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-sans-title);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: var(--fs-800);
+}
+
+h2 {
+  font-size: var(--fs-700);
+}
+
+h3 {
+  font-size: var(--fs-600);
+}
+
+h4 {
+  font-size: var(--fs-500);
+}
+
+/* Utility classes */
+.ff-sans-title {
+  font-family: var(--ff-sans-title);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-secondary-dark);
+}
+
+.flex {
+  display: flex !important;
+}
+
+.ms-auto {
+  align-items: flex-end;
+}
+
+.error {
+  margin: 1rem 0;
+  background-color: rgb(247, 201, 201);
+  border: 1px solid red;
+  color: red;
+  padding: 0.5rem 1rem;
+}
+
+.form_error {
+  color: red;
+  font-weight: normal;
+}
+
+.success {
+  margin: 1rem 0;
+  background-color: rgb(201, 247, 206);
+  border: 1px solid green;
+  color: green;
+  padding: 0.5rem 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.spinner_div {
+  text-align: center;
+  margin: 2rem;
+}
+
+.spinner {
+  color: var(--clr-primary-blue);
+}
+
+.show_filter {
+  transform: translateX(0) !important;
+  display: block !important;
+  opacity: 1 !important;
+}

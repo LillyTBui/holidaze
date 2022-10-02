@@ -1,0 +1,11 @@
+.dashboard {
+  background-color: var(--clr-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.date {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}

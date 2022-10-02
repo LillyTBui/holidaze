@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.form label:nth-child(3) {
+  margin-top: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.form input {
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.button_div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
