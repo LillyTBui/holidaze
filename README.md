@@ -11,8 +11,3 @@ Download all files and install by using the terminal
 Run project
 
 `npm start`
-
-## Login details
-
-Username: admin2022
-password: administrator2022!
